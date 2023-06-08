@@ -89,6 +89,8 @@ html {
 
 
 
+
+
 body {
   font-family: Arimo;
   font-weight: normal;
@@ -98,8 +100,6 @@ body {
   color: #333333;
 
   animation: gradientAnimation 15s ease-in-out infinite;
-
-
 
   /* background-color:#708090; */
 
@@ -1487,7 +1487,8 @@ p {
 
 /* ======= footer css ======= */
 .footer {
-  /* background-image: url("../img/footer/footer-bg.svg"); */
+  /* background-image: url("../img/footer/wave\ \(3\).svg"); */
+  background-color: black;
   background-size: cover;
   background-position: top right;
   padding-top: 260px;
