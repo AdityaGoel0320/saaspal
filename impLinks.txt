@@ -1,0 +1,40 @@
+git hub repo link  - https://github.com/AdityaGoel0320/saaspal
+vercel link = https://saaspal.vercel.app/
+
+
+
+color  
+Primary Color: Amethyst (#9966CC)
+Secondary Color: Aqua Marine (#7FFFD4)
+Accent Color: Coral Pink (#FF7F50)
+Background Color: Slate Gray (#708090)
+Text Color: Ivory (#FFFFF0)
+
+
+
+Certainly! Here's a breakdown of font suggestions categorized into groups for different sections of your hackathon project website:
+
+For Headings:
+1. Exo
+2. Oswald
+3. Anton
+4. Bebas Neue
+5. Arvo
+
+These fonts have bold and impactful designs that work well for headings and titles, grabbing the attention of your website visitors.
+
+For Body Text:
+1. Open Sans
+2. Roboto
+3. Lato
+4. Source Sans Pro
+5. Nunito
+
+These fonts are legible and versatile, making them ideal for body text. They offer a good balance between readability and a modern, clean look.
+
+For Important Points/Highlights:
+1. Montserrat
+2. Poppins
+3. Quicksand
+4. Playfair Display
+5. Raleway
