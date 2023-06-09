@@ -5,12 +5,6 @@ Background Color: Slate Gray (#708090)
 Text Color: Ivory (#FFFFF0) */
 
 
-
-
-
-
-
-
 @import url("https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&family=Open+Sans&display=swap");
 
 .hero-section .hero-content .scroll-bottom,
@@ -32,62 +26,10 @@ Text Color: Ivory (#FFFFF0) */
     01.COMMON css 
 ===========================*/
 
-@keyframes gradientAnimation {
-  0% {
-    background-position: 0% 50%;
-  }
-
-  50% {
-    background-position: 100% 50%;
-  }
-
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
-
 
 html {
   scroll-behavior: smooth;
 }
-
-
-@keyframes gradientAnimation {
-  0% {
-    /* background-color: #757082; */
-    background: linear-gradient(135deg, #FF5500, #FFBA00);
-  }
-
-  20% {
-    background: linear-gradient(135deg, #FF0000, #FF8000, #FFFF00, #00FF00);
-    /* background-color: #FF7A00; */
-  }
-
-  40% {
-    background: linear-gradient(135deg, #FFD700, #FF9100);
-    /* background: linear-gradient(45deg, #F2F3F4, #D9E2EC, #F2F3F4, #D9E2EC); */
-    /* background-color: #FFD700; */
-  }
-
-  60% {
-    background: linear-gradient(135deg, #FF00FF);
-    /* background-color: #FF358B; */
-  }
-
-  80% {
-    background: linear-gradient(135deg, #00ff80, #ebad6c);
-    /* background-color: #4f8f9f; */
-  }
-
-  100% {
-    background: linear-gradient(135deg, #FFC300, #FF4500);
-    /* background: linear-gradient(135deg, #5F2C82, #49A09D); */
-    /* background-color: #867aa3; */
-  }
-}
-
-
 
 
 
@@ -96,13 +38,8 @@ body {
   font-weight: normal;
   font-style: normal;
 
-  /* color: #FFFFF0; */
-  color: #333333;
-
-  animation: gradientAnimation 15s ease-in-out infinite;
-
-  /* background-color:#708090; */
-
+color: initial;
+  /* background-color: black; */
   overflow-x: hidden;
 }
 
@@ -166,7 +103,7 @@ h6 {
   font-family: Arimo;
   font-weight: 700;
   margin: 0px;
-  color: #162447;
+  color:black;
 }
 
 .section-title p {
@@ -326,9 +263,9 @@ p {
 }
 
 .main-btn.border-btn {
-  border: 2px solid #5864FF;
+  border: 2px solid red;
   background: transparent;
-  color: #5864FF;
+  color: black;
 }
 
 .btn-hover {
@@ -832,7 +769,7 @@ p {
 .navbar-nav .nav-item a {
   font-size: 18px;
   font-weight: 400;
-  color: #fff;
+  color: black;
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
   padding: 10px 0;
@@ -908,7 +845,7 @@ p {
 .hero-section .hero-content h1 {
   font-size: 60px;
   margin-bottom: 35px;
-  color: #fff;
+  color: black;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
@@ -1054,7 +991,7 @@ p {
   height: 130px;
   border-radius: 50%;
   background: rgba(88, 100, 255, 0.1);
-  color: #5864FF;
+  color: black;
   /* color: black; */
   margin: auto;
   margin-bottom: 30px;
@@ -1323,7 +1260,7 @@ p {
   padding-left: 40px;
   font-size: 20px;
   font-weight: 600;
-  color: #162447;
+  color: black;
   margin-bottom: 25px;
   position: relative;
 }
@@ -1333,7 +1270,7 @@ p {
   width: 18px;
   height: 18px;
   border-radius: 50%;
-  background: #5864FF;
+  background: black;
   position: absolute;
   left: 0;
   top: 6.5px;
@@ -1344,7 +1281,7 @@ p {
 /* ====== feature-extended css ====== */
 .feature-extended-section .feature-extended-wrapper {
   padding: 70px 0;
-  background: rgba(88, 100, 255, 0.1);
+  /* background: rgba(88, 100, 255, 0.1); */
 }
 
 .feature-extended-section .single-feature-extended {
@@ -1367,11 +1304,16 @@ p {
   font-size: 65px;
   line-height: 1;
   margin-bottom: 30px;
-  color: #5864FF;
+  color: black;
 }
 
 .feature-extended-section .single-feature-extended .content h3 {
   margin-bottom: 20px;
+}
+
+.feature-extended-section .single-feature-extended .content h3:hover{
+  color: red;
+  font-size: 30px;
 }
 
 .feature-extended-section .single-feature-extended .content p {
@@ -1488,7 +1430,7 @@ p {
 /* ======= footer css ======= */
 .footer {
   /* background-image: url("../img/footer/wave\ \(3\).svg"); */
-  background-color: black;
+  /* background-color: black; */
   background-size: cover;
   background-position: top right;
   padding-top: 260px;
@@ -1545,9 +1487,10 @@ p {
 .footer .widget-wrapper .footer-widget .socials li a {
   width: 40px;
   height: 40px;
+  font-size: 30px;
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.13);
-  color: #fff;
+  color: black;
 }
 
 .footer .widget-wrapper .footer-widget .socials li a:hover {
@@ -1557,7 +1500,7 @@ p {
 
 .footer .widget-wrapper .footer-widget h3 {
   margin-bottom: 25px;
-  color: #fff;
+  color: black;
 }
 
 .footer .widget-wrapper .footer-widget ul.links li {
@@ -1566,7 +1509,7 @@ p {
 }
 
 .footer .widget-wrapper .footer-widget ul.links li a {
-  color: #fff;
+  color: black;
 }
 
 .footer .widget-wrapper .footer-widget ul.links li a:hover {
